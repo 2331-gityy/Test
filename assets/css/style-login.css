@@ -1,0 +1,49 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet Ms', 'sans-serif';
+}
+.backround{
+    background-image: url(../png/2.jpg);
+    background-size: 100%;
+    background-position: 0px -100px;
+}
+.form-login{
+    background: white;
+    width: 1000px;
+    height: 420px;
+    margin-left: 110px;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 60px;
+}
+.text-welcome{
+    margin-left: 105px;
+}
+input{
+    margin-top: 13px;
+    width: 350px;
+    height: 27px;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+button{
+    border-radius: 5px;
+    width: 125px;
+    height: 28px;
+    border-color: red;
+    margin-left: 115px;
+    font-size: 18px;
+    background-color: white;
+}
+button:hover{
+    background-color: red;
+    color: white
+}
+.right{
+    margin-left: 450px;
+    margin-bottom: 300px;
+    width: 100px;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

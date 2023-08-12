@@ -1,0 +1,29 @@
+.back-merah{
+    background-color: red;
+    width: auto;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-block: 2rem;
+    gap: 2rem;
+}
+
+.card-w {
+    background-color: white;
+    width: 100vw;
+    height: 500px;
+    margin-left: -0.5vw;
+    margin-right: -0.5vw;
+}
+
+.card-r {
+    background-color: red;
+    width: 100vw;
+    height: 500px;
+    margin-left: -0.5vw;
+    margin-right: -0.5vw;
+}
