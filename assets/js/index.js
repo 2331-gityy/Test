@@ -1,12 +1,19 @@
 window.addEventListener("DOMContentLoaded", function () {
     AOS.init();
 
+    const pendaftar1 = 21 ;
+    const pendaftar2 = 52 ;
+    const pendaftar3 = 24 ;
+    document.getElementById("pendaftar1").innerHTML = pendaftar1 + " Pendaftar";
+    document.getElementById("pendaftar2").innerHTML = pendaftar2 + " Prndaftar";
+    document.getElementById("pendaftar3").innerHTML = pendaftar3 + " Pendaftar";
+    
     const navbar = document.querySelector("header nav");
     const navBurger = document.querySelector(".nav-burger i.fas.fa-bars");
     const navList = document.querySelector(".nav-list");
 
     let lastScrollTop;
-
+  
     window.onscroll = function () {
         if (window.pageYOffset > 0) {
             navbar.classList.add("navbar-shadow");
