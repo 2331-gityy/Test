@@ -12,7 +12,9 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>17 Agustus</title>
 </head>
-
+<script>
+    
+</script>
 <body>
     <header>
         <nav>
@@ -36,7 +38,7 @@
                         <a href="#about">Ketentuan</a>
                     </li>
                     <li>
-                        <a class="nav-list-login" id="myBtn1"href="#">Daftar</a>
+                        <a class="nav-list-login" id="myBtn1" href="#">Daftar</a>
                     </li>
                 </ul>
                 <div class="nav-burger">
@@ -80,12 +82,12 @@
                     <div class="question">
                         <label>Kategori Lomba</label>
                         <select id="country" name="country">
-                            <option value="anak">Anak-Anak</option>
-                            <option value="dewasa">Dewasa</option>
-                            <option value="usa">Semua Usia</option>
+                            <option value="1">Anak-Anak</option>
+                            <option value="2">Dewasa</option>
+                            <option value="3">Semua Usia</option>
                         </select>
                     </div>
-                    <button class="modal-button">Submit</button>
+                    <button class="modal-button" onclick="othername();">Submit</button>
                 </form>
             </div>
         </div>
@@ -139,7 +141,7 @@
                                 </p>
                             </div>
                             <div class="pricing-price">
-                                <h1 id="pendaftar"> <span>Pendaftar</span></h1>
+                                <h1 id="pendaftar1"></h1>
                             </div>
                             <button id="myBtn2" class="pricing-button">Daftar</button>
                             <div class="pricing-list">
@@ -181,7 +183,7 @@
                                 </p>
                             </div>
                             <div class="pricing-price">
-                                <h1>52 <span>Pendaftar</span></h1>
+                                <h1 id="pendaftar2"></h1>
                             </div>
                             <button id="myBtn3" class="pricing-button">Daftar</button>
                             <div class="pricing-list">
@@ -225,7 +227,7 @@
                                 </p>
                             </div>
                             <div class="pricing-price">
-                                <h1>20 <span>Pendaftar</span></h1>
+                                <h1 id="pendaftar3"></h1>
                             </div>
                             <button id="myBtn4" class="pricing-button">Daftar</button>
                             <div class="pricing-list">
@@ -310,6 +312,7 @@
 
     <script src="assets/js/aos.js"></script>
     <script src="assets/js/index.js"></script>
+    
 </body>
 
 </html>
